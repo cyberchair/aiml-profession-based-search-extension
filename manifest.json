@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Personalized Search Extension",
+  "version": "1.0",
+  "description": "Enhances search results based on user interests",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "*://www.google.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
+
+
+
+
+
+
+
+
